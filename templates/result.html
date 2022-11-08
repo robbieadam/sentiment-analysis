@@ -6,8 +6,8 @@
    <!-- <link rel="stylesheet" type="text/css" href="../static/css/styles.css"> -->
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Reviews Data Filter  Positive or Negative">
-    <meta name="description" content="Positife or Negative | Reviews Data Detector">
+    <meta name="keywords" content="Review Filter  Positive  Negative">
+    <meta name="description" content="Positive or Negative Reviews Filter">
  
     <link rel="icon" type="image/png" href="" />
     
@@ -82,10 +82,10 @@
 
 <div class="jumbotron jumbotron-fluid p-y-3">
       <div class="container text-xs-center text-white">
-        <a href="https://github.com/hallosayaimroatubelajargithub/UTS-Text-Mining-0002" target="_blank" title="View code at Github"> <ion-icon name="logo-github" size="large"></ion-icon></a>
+        <a href="https://github.com/SelgiAgilsa/uts-textminning" target="_blank" title="View code at Github"> <ion-icon name="logo-github" size="large"></ion-icon></a>
        
-        <h1 class="display-1 card-header" align="center" style="color:#2196F3;">Spam or Ham | SMS Detector  </h1>
-        <p class="lead" align="center"> Paste your SMS below to check whether it is spam or  not(ham).  </p>
+        <h1 class="display-1 card-header" align="center" style="color:#2196F3;">Positive or Negative | Reviews Detector  </h1>
+        <p class="lead" align="center"> Paste your Reviews below to check whether it is positive or negative.  </p>
         
       </div>
     </div>
@@ -104,16 +104,16 @@
 
 		
 	{% if prediction == 1%}
-	<h2 style="color:red;" align="center">Positif</h2>
+	<h2 style="color:blue;" align="center">Positive</h2>
 	{% elif prediction == 0%}
-	<h2 style="color:blue;" align="center">Negatif</h2>
+	<h2 style="color:red;" align="center">Negative</h2>
 	{% endif %}
 
 	</div>
 
 <div class="form-row text-center">
     <div class="col-12">
-         <a href="https://sms-spam-ham-detector.herokuapp.com"> <button type="submit" class="btn btn-primary">Check Again</button> </a>
+         <a href="https://uts-textminning-0035.herokuapp.com/"> <button type="submit" class="btn btn-primary">Check Again</button> </a>
     </div>
  </div>
 
@@ -121,6 +121,8 @@
 
 <div class="container">
 
+
+  
 
 <div class="col-md-6">
             <div class="card center">
@@ -130,7 +132,7 @@
                         </div>
                         <div class="card-body">
                         <p class="card-p">
-                                The dataset for this project is taken from  <a href="https://archive.ics.uci.edu/ml/datasets/sms+spam+collection" target="_blank">UCI Machine Learning</a>
+                                The dataset for this project is taken by scrapping from Google Maps</a>
 
 <div class="col-md-4">
   <b>Technology Used:  </b>
@@ -180,52 +182,47 @@
 </div>
 <i>Based on accuracy, Naive Bayes classification outperform all, Thus this model is based on Naive Bayes classification algorithm.</i>
   
-                
+                          
+
 
                                 
                             </p>
                       </div>
                       
-                                  
-
-                        
+                       
                     </div>
                 </div>
             </div>
   
 
 <div class="col-md-6">
-            <div class="card center">
+        		<div class="card center">
                     <div class="card-content">
-                      <div class="card-header">
+                    	<div class="card-header">
                            <h1 class="card-heading"> About this project</h1>
-                        </div>
-                        <div class="card-body">
-                        <p class="card-p">
-                                This was the  project for the  partial fulfillment of IV/I year/semester Artificial Intelligence course (COMP 472), Computer Science, Kathmandu University.
+                       	</div>
+                       	<div class="card-body">
+                     	  <p class="card-p">
+                                This was the  project for the UTS of Text Minning(A1) semester 5, Teknik Informatika, Stikubank University.
 <br>
 <br>
-                                    <i>Based on the instructor's feedbacks the project was updated.</i>
+                                    <i>Selgi Agilsa Ebimbi (20.01.53.0035)</i>
                                 
                             </p>
-                      </div>
-                      
-                      <nav class="nav-tabs">
-                        <ul class="nav nav-pills center">
-                                <li class="card-action"><u>Course Instructor</u> <a href="#" >Santosh Khanal</a></li>
-                                <li class="card-action"><u> Design & Develop  </u> <a href="https://github.com/maladeep"  target="_blank"> Mala Deep</a> </li>
+                     	</div>
+                     	
+                     	<nav class="nav-tabs">
+                     		<ul class="nav nav-pills center">
+                             
+                                  <li class="card-action"><u> Inspiring Design & Develop </u> <a href="https://github.com/maladeep" target="_blank"> Mala Deep</a> </li>
                               
-
-                                
                             </ul>
-
-
-                        
-                      </nav>
-                        
+                     		
+                     	</nav>
+                     		
                     </div>
                 </div>
-            </div>
+           	</div>
 
 
 
