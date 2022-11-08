@@ -14,9 +14,9 @@ def home():
 
 @app.route('/predict',methods=['POST'])
 def predict():
-	filename = "https://raw.githubusercontent.com/hallosayaimroatubelajargithub/UTS-Text-Mining-0002/main/hasil_review.csv"
+	filename = "https://raw.githubusercontent.com/robbieadam/sentiment-analysis/main/hasil-review-hotel.csv"
 	df = pd.read_csv(filename)
-	df.drop(columns=['kota lama', 'name'], inplace=True)
+	df.drop(columns=['hotel_name', 'name'], inplace=True)
 
 	import string
 	import re
